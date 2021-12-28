@@ -23,3 +23,33 @@ My responsibilities include maintenance of computers and other electronic equipm
     * Attentiveness
 	* Action-oriented skill
 
+## Skills
+Java
+
+Android Studio
+
+HTML, CSS
+
+GIT, GitHub
+
+## Code example   
+```JavaScript
+function multiply(a, b) {
+    alert('The example is so plain, cause I just begin to learn JavaScript');
+    return a*b;
+}
+```
+
+## Experience
+I have two implemented applications. These are bus schedule app for Android and automatic work plan creation application written in Java.  
+[Kalinkovichi bus schedule app](https://play.google.com/store/apps/details?id=by.example.rampant.busshedule "link to Google Play Market") 
+[Kalinkovichi bus schedule app](https://github.com/DyatkoDmitry/BusSheduleKalinkovichi.git "link to GitHub") 
+[Application for creating a work plan](https://github.com/DyatkoDmitry/Railway-operational-plan.git "link to GitHub")
+
+## Education
+Belarusian state university of transport. Major: electrical engineer; Specialty: microprocessor information control systems.
+
+## English
+A2. (B1 in progress).
+
+I use apps Speaky, Reword (1300 words memorized) and continue to watch the TV series House M.D. in English (2 season).  
