@@ -98,7 +98,6 @@ h3{
     color: #db0d4b;
 }
 
-
 nav{
     padding: 0;
     background-color: rgba(185, 185, 185, 0.2);
@@ -113,7 +112,7 @@ main{
     display: flex;
 }
 
-.aboutme{
+.about-contact{
     padding: 0;
     width: 350px;
     margin: 0;
@@ -172,6 +171,7 @@ footer {
 .reference-to-github img {
     width: 40px;
 }
+
 .reference-to-github span {
     padding: 0 5px;
 }
@@ -192,8 +192,6 @@ code{
     font-family: 'Courier New', Courier, monospace;
     font-size: 15px;
 }
-
-
 
 * {
     box-sizing: border-box;
