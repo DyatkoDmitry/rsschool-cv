@@ -4,9 +4,137 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin&display=swap" rel="stylesheet">
+    <title>CV</title>
 </head>
 <body>
-    
+    <div class="wrapper">
+        <header>
+            <img src="./assets/img/ava.jpg" alt="My photo">
+            <div class="container-head-name">
+                <h1>Dyatko Dmitry</h1>
+                <h3>Student of RS School</h3>
+                <div class="line"></div>
+            </div>
+        </header>
+        <nav>
+            <ul class="nav-main-list">
+                <li class="nav-item"><a href="#about-me" class="nav-link">About me</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                <li class="nav-item"><a href="#code-example" class="nav-link">Code example</a></li>
+                <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+                <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
+            </ul>
+        </nav>
+        <main>
+            <div class="about-contact">
+                <div class="container-contact" id="contact">
+                        <ul class="nav-contact">
+                            <li><b>Location:</b> Mozyr, Belarus</li>
+                            <li><b>E-mail:</b> dyatkodmitry@gmail.com</li>
+                            <li><b>Discord:</b> DmitryDyatko#1590</li>
+                            <li><b>GitHub:</b> @DyatkoDmitry</li>
+                            <li><b>vk.com:</b> vk.com/rampant_name </li>
+                        </ul>
+                </div>
+                <div class="sign-contact">
+                    <span id="sign-contact">Contact</span>
+                </div>
+            </div>
+            <div class=aboutall>
+                <section id="about-me">
+                    <h2>
+                        About me
+                    </h2>
+                    <p>
+                        Currently, I work at Belarusian railway as a electrical engineer. I’ve been there for just over
+                        ten years. My responsibilities include maintenance of computers and other electronic equipment.
+                        I decided to take the RS School course to learn about the technologies of web development, as
+                        well as to gain experience in HTML, CSS and JavaScript.
+                    </p>
+                </section>
+                <section id="skills">
+                    <h2>
+                        Skills
+                    </h2>
+                    <ul>
+                        <li>Java</li>
+                        <li>Android Studio</li>
+                        <li>HTML,CSS</li>
+                        <li>GIT,GitHub</li>
+                    </ul>
+                </section>
+                <section id="code-example">
+                    <h2>
+                        Code example
+                    </h2>
+                    <div class="code-container">
+                        <code>
+                                function multiply(a, b) { <br>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;alert('The example is so plain, cause I just begin to learn JavaScript');<br>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;return a*b;<br>
+                                }
+                            </code>
+                    </div>
+                </section>
+                <section id="experience">
+                    <h2>
+                        Experience
+                    </h2>
+                    <p>
+                        I have two implemented applications. These are bus schedule app for Android and automatic work
+                        plan creation application written in Java.
+                    </p>
+                    <ul>
+                        <li>
+                            <a href="https://play.google.com/store/apps/details?id=by.example.rampant.busshedule">Kalinkovichi
+                                bus schedule app</a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/DyatkoDmitry/BusSheduleKalinkovichi">Kalinkovichi bus schedule
+                                app (GitHub)</a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/DyatkoDmitry/Railway-operational-plan">Application for creating
+                                a work plan</a>
+                        </li>
+                    </ul>
+                </section>
+                <section id="education">
+                    <h2>
+                        Education
+                    </h2>
+                    <p>
+                        Belarusian state university of transport. Major: electrical engineer; Specialty: microprocessor
+                        information control systems.
+                    </p>
+                </section>
+                <section id="english">
+                    <h2>
+                        English
+                    </h2>
+                    <p>
+                        A2. (B1 in progress).
+                        I use apps Speaky, Reword (1300 words memorized) and continue to watch the TV series House M.D.
+                        in English (2 season).
+                    </p>
+                </section>
+            </div>
+        </main>
+        <footer>
+            <a href="https://rs.school/js/"><img src="https://rs.school/images/rs_school_js.svg" alt="RS School"></a>
+            <div class="reference-to-github">
+                <a href="https://github.com/DyatkoDmitry"><img src="./assets/img/github.png"
+                        alt="GitHub of DyatkoDmitry"></a>
+                <a href="https://github.com/DyatkoDmitry"><span>Dyatko Dmitry GitHub</span></a>
+            </div>
+            <p>© 2022</p>
+        </footer>
+    </div>
 </body>
-</html> 
+</html>
